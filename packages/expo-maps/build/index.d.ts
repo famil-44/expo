@@ -29,6 +29,7 @@ export declare namespace AppleMaps {
     type MapUISettings = AppleTypes.AppleMapsUISettings;
     type MapProperties = AppleTypes.AppleMapsProperties;
     type MapProps = AppleTypes.AppleMapsViewProps;
+    type MapView = AppleTypes.AppleMapsViewType;
 }
 export declare const requestPermissionsAsync: () => Promise<import("expo-modules-core").PermissionResponse>;
 export declare const getPermissionsAsync: () => Promise<import("expo-modules-core").PermissionResponse>;
